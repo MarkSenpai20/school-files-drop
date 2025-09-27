@@ -1,0 +1,59 @@
+body {
+            background: #f4ecd8;
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+        }
+        .card {
+            background: #fff8e1;
+            border: 2px solid #bfa76f;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(80, 60, 20, 0.15);
+            max-width: 350px;
+            margin: 60px auto;
+            padding: 32px 28px;
+            text-align: center;
+        }
+        .card h1 {
+            font-family: 'Georgia', serif;
+            font-size: 2em;
+            color: #7c5c2a;
+            margin-bottom: 18px;
+            letter-spacing: 2px;
+        }
+        label {
+            font-size: 1.1em;
+            color: #7c5c2a;
+            margin-bottom: 10px;
+            display: block;
+        }
+        input[type="number"] {
+            padding: 8px 12px;
+            border: 1px solid #bfa76f;
+            border-radius: 6px;
+            background: #f9f5e3;
+            font-size: 1em;
+            margin-bottom: 18px;
+            width: 80%;
+        }
+        button {
+            background: #bfa76f;
+            color: #fff8e1;
+            border: none;
+            border-radius: 6px;
+            padding: 10px 24px;
+            font-size: 1em;
+            font-family: 'Georgia', serif;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(80, 60, 20, 0.10);
+            transition: background 0.2s;
+        }
+        button:hover {
+            background: #7c5c2a;
+        }
+        h2 {
+            color: #7c5c2a;
+            margin-top: 22px;
+            font-family: 'Georgia', serif;
+            font-size: 1.3em;
+        }
